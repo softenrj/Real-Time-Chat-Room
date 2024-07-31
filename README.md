@@ -31,42 +31,38 @@ The P2P Chatting App is a real-time chat application allowing users to join chat
    ```bash
    git clone https://github.com/softenrj/P2P-chatting-app.git
 
+2. **Navigate to the Project Directory**
 
-bash
-Copy code
-git clone https://github.com/softenrj/P2P-chatting-app.git
-Navigate to the Project Directory
+   ```bash
+   cd P2P-chatting-app
 
-bash
-Copy code
-cd P2P-chatting-app
-Install Dependencies
+3. **Install Dependencies**
+   Make sure you have Node.js installed. Then run:
 
-Make sure you have Node.js installed. Then run:
+   ```bash
+   npm install
 
-bash
-Copy code
-npm install
-Run the Server
+4. **Run the Server**
 
-bash
-Copy code
-npm start
-The server will start on http://localhost:3000.
+    ```bash
+    npm start
 
-Open the App
+5. **Open the App**
+   Open your browser and navigate to http://localhost:3000 to use the chat application.
 
-Open your browser and navigate to http://localhost:3000 to use the chat application.
+#Usage
 
-Usage
-Join a Room:
+1. **Join a Room:**
+ - Enter your username and room name in the fields provided and click "OK" to join a room.
 
-Enter your username and room name in the fields provided and click "OK" to join a room.
-Send Messages:
+2. **Send Messages:**
 
-Type your message in the input box and press "Send" or hit Enter.
-See User Activity:
+ - Type your message in the input box and press "Send" or hit Enter.
 
-The chat area will display user activity, including who is typing.
-Contributing
+3. **See User Activity:**
+
+ - The chat area will display user activity, including who is typing.
+
+#Contributing
 Feel free to fork this repository and submit pull requests. For any issues or feature requests, please open an issue on the GitHub repository.
+
