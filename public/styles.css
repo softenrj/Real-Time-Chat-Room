@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Comfortaa:wght@300..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url("./chat\ back.png");
+    background-size: cover;
+    width: 400px;
+    border: 3px solid rgba(0, 0, 0, 0.884);
+    border-radius: 16px;
+    transition: all 0.3s ease;
+
+}
+
+
+.join {
+    width: 98.5%;
+    background-color: rgb(207, 205, 205);
+    height: 25px;
+    border-radius: 12px 12px 0px 0px;
+    padding-left: 6px;
+
+}
+
+.join input {
+    border: none;
+    font-size: x-small;
+    padding: 3.5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.join-btn {
+    background-color: rgb(0, 162, 255);
+    border: none;
+    padding: 2px;
+    color: white;
+}
+
+.head {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 5px;
+}
+
+.head>img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 2px solid white;
+}
+
+.info {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 5px;
+
+}
+
+.room {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.users {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-weight: 400;
+    margin-left: 2px;
+    position: relative;
+    top: -2px;
+}
+
+.activity {
+    margin-left: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.left-chat {
+    background-color: white;
+    max-width: 180px;
+    min-width: 60px;
+    border-radius: 0px 15px 15px 15px;
+    -webkit-border-radius: 0px 15px 15px 15px;
+    -moz-border-radius: 0px 15px 15px 15px;
+    position: relative;
+    left: 15px;
+    top: 12px;
+    margin-bottom: 25px;
+}
+
+.name-l {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.message {
+    margin-top: 5px;
+    margin-left: 15px;
+    word-wrap: break-word;
+    margin-right: 15px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.time-l {
+    font-weight: lighter;
+    font-size: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 126px;
+}
+
+.right-chat {
+    background-color: white;
+    max-width: 180px;
+    min-width: 60px;
+    border-radius: 15px 0px 15px 15px;
+    -webkit-border-radius: 15px 0px 15px 15px;
+    -moz-border-radius: 15px 0px 15px 15px;
+    position: relative;
+    left: 205px;
+    margin-bottom: 25px;
+}
+
+.name-r {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.time-r {
+    font-weight: lighter;
+    font-size: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 126px;
+}
+
+.sendmessage {
+    margin-left: 13px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sendmessage .msg>input {
+    padding: 12px;
+    padding-right: 35%;
+    border-radius: 6px;
+    border: none;
+}
+
+.sendmessage .msg>button {
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    width: 50px;
+    margin-left: 5px;
+}
+
+.chat-display {
+    overflow-y: auto;
+    height: 65vh;
+
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.admin {
+    background-color: #ffffff6a;
+    text-align: center;
+    font-size: small;
+    margin-top: 5px;
+    width: 350px;
+    margin-left: 25px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        height: 93vh;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        display: block;
+
+
+    }
+
+    .container {
+        background-image: url("./chat\ back.png");
+        background-size: cover;
+        height: 93vh;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .admin {
+        width: calc(100vw - 40px);
+        margin-left: 20px;
+    }
+
+    .join {
+        width: 98.5%;
+        background-color: rgb(207, 205, 205);
+        height: 35px;
+        padding-left: 6px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .join input {
+        border: none;
+        font-size: x-small;
+        padding: 5px;
+        margin-top: 6px;
+    }
+
+
+    .join-btn {
+        background-color: rgb(0, 162, 255);
+        border: none;
+        padding: 5px;
+        color: white;
+    }
+
+    .head {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        padding: 5px;
+    }
+
+    .head>img {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        border: 2px solid white;
+    }
+
+    .info {
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    .activity {
+        margin-left: 92px;
+    }
+
+    .chat-display {
+        overflow-y: auto;
+        height: 72vh;
+    }
+
+    .sendmessage {
+        margin-left: 13px;
+        width: 100%;
+    }
+
+    .sendmessage .msg>input {
+        padding: 12px;
+        padding-right: 27%;
+        border-radius: 6px;
+        border: none;
+    }
+}

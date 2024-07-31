@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2P chatting app</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="join">
+            <input class="username" type="text" placeholder="Name of User" required maxlength="8" size="6">
+            <input class="roomname" type="text" placeholder="Room Name" required maxlength="8" size="8">
+            <button type="submit" class= "join-btn">OK</button>
+        </form>
+
+        <div class="chat-area">
+            <div class="head">
+                <img src="./0163a8ab-c780-4837-aa4f-c7932dc89dea.webp" alt="image">
+                <div class="info">
+                    <span class="room">Create new</span> <br>
+                    <span class="users">No user</span> <br>
+                    <ul class="user-list"></ul>
+                    <span class="activity">offline</span> 
+                </div>
+                
+            </div>
+            <ul class="chat-display"></ul>
+
+            <div class="sendmessage">
+                <form class="msg">
+                    <input type="text" class="send-message" placeholder="Your message">
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
