@@ -50,7 +50,7 @@ The P2P Chatting App is a real-time chat application allowing users to join chat
 5. **Open the App**
    Open your browser and navigate to http://localhost:3000 to use the chat application.
 
-#Usage
+##Usage
 
 1. **Join a Room:**
  - Enter your username and room name in the fields provided and click "OK" to join a room.
@@ -63,6 +63,6 @@ The P2P Chatting App is a real-time chat application allowing users to join chat
 
  - The chat area will display user activity, including who is typing.
 
-#Contributing
+##Contributing
 Feel free to fork this repository and submit pull requests. For any issues or feature requests, please open an issue on the GitHub repository.
 
