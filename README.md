@@ -53,15 +53,15 @@ The P2P Chatting App is a real-time chat application allowing users to join chat
 ## Usage
 
 1. **Join a Room:**
- - Enter your username and room name in the fields provided and click "OK" to join a room.
+    - Enter your username and room name in the fields provided and click "OK" to join a room.
 
 2. **Send Messages:**
 
- - Type your message in the input box and press "Send" or hit Enter.
+    - Type your message in the input box and press "Send" or hit Enter.
 
 3. **See User Activity:**
 
- - The chat area will display user activity, including who is typing.
+    - The chat area will display user.        activity, including who is typing.
 
 ## Contributing
 Feel free to fork this repository and submit pull requests. For any issues or feature requests, please open an issue on the GitHub repository.
