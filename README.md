@@ -1,26 +1,36 @@
-P2P Chatting App
-Overview
+# P2P Chatting App
+
+## Overview
+
 The P2P Chatting App is a real-time chat application allowing users to join chat rooms and communicate with each other. Built using Socket.io and Express.js, this app demonstrates real-time communication and room management functionalities.
 
-Features
-Real-time Messaging: Send and receive messages instantly within a room.
-User Presence: See who is online and who has joined or left the room.
-Typing Indicator: Display when users are typing a message.
-Responsive Design: Works on both desktop and mobile devices.
-Technologies Used
-Frontend:
+## Features
 
-HTML
-CSS
-JavaScript
-Socket.io client
-Backend:
+- **Real-time Messaging:** Send and receive messages instantly within a room.
+- **User Presence:** See who is online and who has joined or left the room.
+- **Typing Indicator:** Display when users are typing a message.
+- **Responsive Design:** Works on both desktop and mobile devices.
 
-Node.js
-Express.js
-Socket.io server
-Installation
-Clone the Repository
+## Technologies Used
+
+- **Frontend:**
+  - HTML
+  - CSS
+  - JavaScript
+  - Socket.io client
+
+- **Backend:**
+  - Node.js
+  - Express.js
+  - Socket.io server
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/softenrj/P2P-chatting-app.git
+
 
 bash
 Copy code
