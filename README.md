@@ -45,7 +45,7 @@ The P2P Chatting App is a real-time chat application allowing users to join chat
 4. **Run the Server**
 
     ```bash
-    npm start
+    nodemon index.js
 
 5. **Open the App**
    Open your browser and navigate to http://localhost:3000 to use the chat application.
