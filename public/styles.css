@@ -141,7 +141,7 @@ input:focus {
     -webkit-border-radius: 15px 0px 15px 15px;
     -moz-border-radius: 15px 0px 15px 15px;
     position: relative;
-    left: 205px;
+    left: 265px;
     margin-bottom: 25px;
     display: inline-block;
 }
@@ -333,21 +333,12 @@ input:focus {
     }
 
     .sendmessage .msg>input {
-        padding: 12px;
-        padding-right: 27%;
+        padding: 6px;
         border-radius: 6px;
+        height: 28px;
+        width: 76%;
         border: none;
+        line-height: 24px;
     }
-    .left-chat {
-        background-color: white;
-        max-width: 180px;
-        min-width: 60px;
-        border-radius: 0px 15px 15px 15px;
-        -webkit-border-radius: 0px 15px 15px 15px;
-        -moz-border-radius: 0px 15px 15px 15px;
-        position: relative;
-        left: 0px;
-        top: 12px;
-        margin-bottom: 25px;
-    }
+
 }
