@@ -135,28 +135,30 @@ input:focus {
 
 .right-chat {
     background-color: white;
-    max-width: 250px;
-    min-width: 120px;
+    width: 190px;
     border-radius: 15px 0px 15px 15px;
     -webkit-border-radius: 15px 0px 15px 15px;
     -moz-border-radius: 15px 0px 15px 15px;
     position: relative;
-    left: 265px;
+    left: 195px;
     margin-bottom: 25px;
-    display: inline-block;
+    margin-top: 10px;
+    height: 68px;
+    
 }
 
 .name-r {
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: 140px;
 }
 
 .time-r {
     font-weight: lighter;
     font-size: 10px;
-    margin-bottom: 5px;
     float: right;
-    margin-right: 12px;
+    position: relative;
+    top: 4px;
+    left: -10px;
 }
 
 .sendmessage {
@@ -325,6 +327,7 @@ input:focus {
     .chat-display {
         overflow-y: auto;
         height: 72vh;
+        width: 100%;
     }
 
     .sendmessage {
@@ -343,15 +346,18 @@ input:focus {
 
     .right-chat {
         background-color: white;
-        max-width: 250px;
-        min-width: 120px;
+        width: 180px;
         border-radius: 15px 0px 15px 15px;
         -webkit-border-radius: 15px 0px 15px 15px;
         -moz-border-radius: 15px 0px 15px 15px;
         position: relative;
-        left: 250px;
         margin-bottom: 25px;
-        display: inline-block;
+        left: 190px;
     }
+    .name-r {
+        font-size: 12px;
+        margin-left: 122px;
+    }
+    
 
 }
