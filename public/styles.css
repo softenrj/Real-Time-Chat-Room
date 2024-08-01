@@ -327,7 +327,6 @@ input:focus {
     .chat-display {
         overflow-y: auto;
         height: 72vh;
-        width: 100%;
     }
 
     .sendmessage {
