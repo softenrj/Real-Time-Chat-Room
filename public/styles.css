@@ -341,4 +341,17 @@ input:focus {
         line-height: 24px;
     }
 
+    .right-chat {
+        background-color: white;
+        max-width: 250px;
+        min-width: 120px;
+        border-radius: 15px 0px 15px 15px;
+        -webkit-border-radius: 15px 0px 15px 15px;
+        -moz-border-radius: 15px 0px 15px 15px;
+        position: relative;
+        left: 250px;
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+
 }
