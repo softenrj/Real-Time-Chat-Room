@@ -13,8 +13,9 @@ body {
 }
 
 .container {
-    background-image: url("./chat\ back.png");
-    background-size: cover;
+    background-image: url("./Chat\ Wallpaper.jpg");
+    background-size:cover;
+    background-position: center;
     width: 400px;
     border: 3px solid rgba(0, 0, 0, 0.884);
     border-radius: 16px;
@@ -25,7 +26,7 @@ body {
 
 .join {
     width: 98.5%;
-    background-color: rgb(207, 205, 205);
+    background-color: rgb(0, 0, 0);
     height: 25px;
     border-radius: 12px 12px 0px 0px;
     padding-left: 6px;
@@ -50,9 +51,11 @@ input:focus {
 }
 
 .head {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 221, 221);
+    border-radius: 0px 0px 20px 20px;
     display: flex;
     padding: 5px;
+    padding-bottom: 2px;
 }
 
 .head>img {
@@ -93,19 +96,23 @@ input:focus {
     font-weight: 400;
     font-size: 12px;
 }
+.chat-display {
+    overflow-y: auto;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .left-chat {
-    background-color: white;
-    max-width: 250px;
-    min-width: 120px;
-    border-radius: 0px 15px 15px 15px;
-    -webkit-border-radius: 0px 15px 15px 15px;
-    -moz-border-radius: 0px 15px 15px 15px;
-    position: relative;
-    left: 15px;
-    top: 12px;
-    margin-bottom: 25px;
-    display: inline-block;
+    background-color: rgb(109, 187, 109);
+    color: white;
+    justify-self: flex-start;
+    margin-top: 20px;
+    margin-left: 10px;
+    word-wrap: break-word;
+    max-width: 90%;
+    border-radius: 12px;
+    padding-bottom: 14px;
 }
 
 .name-l {
@@ -118,7 +125,7 @@ input:focus {
     margin-left: 15px;
     word-wrap: break-word;
     margin-right: 15px;
-    font-family: "Comfortaa", sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
@@ -135,16 +142,13 @@ input:focus {
 
 .right-chat {
     background-color: white;
-    width: 190px;
-    border-radius: 15px 0px 15px 15px;
-    -webkit-border-radius: 15px 0px 15px 15px;
-    -moz-border-radius: 15px 0px 15px 15px;
-    position: relative;
-    left: 195px;
-    margin-bottom: 25px;
-    margin-top: 10px;
-    height: 68px;
-    
+    justify-self: flex-end;
+    margin-top: 20px;
+    margin-right: 10px;
+    word-wrap: break-word;
+    max-width: 90%;
+    border-radius: 12px;
+    padding-bottom: 16px;
 }
 
 .name-r {
@@ -186,11 +190,7 @@ input:focus {
     margin-left: 5px;
 }
 
-.chat-display {
-    overflow-y: auto;
-    height: 65vh;
 
-}
 
 ::-webkit-scrollbar {
     width: 2px;

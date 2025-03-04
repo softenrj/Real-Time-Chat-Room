@@ -31,10 +31,10 @@ msgForm.addEventListener("submit",e =>{
 
 function displayMessage(m, anyUser) {
     let li = document.createElement("li");
-    if (anyUser === userName.value) {
+    if (anyUser !== userName.value) {
         li.innerHTML = `
             <div class="left-chat">
-                <span class="name-l">You</span>
+                <span class="name-l">${anyUser}</span>
                 <br>
                 <div class="message">
                     ${m}
@@ -50,7 +50,7 @@ function displayMessage(m, anyUser) {
     } else {
         li.innerHTML = `
             <div class="right-chat">
-                <span class="name-r">${anyUser}</span>
+                <span class="name-r">You</span>
                 <br>
                 <div class="message">
                     ${m}
